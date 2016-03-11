@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:background="#e6e6e6"
+    android:orientation="vertical">
+
+    <com.open.crop.CropImageView4
+        android:id="@+id/cropImg"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0" />
+
+    <Button
+        android:id="@+id/btnSaveCrop"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#33cc99"
+        android:gravity="center"
+        android:text="SAVE"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

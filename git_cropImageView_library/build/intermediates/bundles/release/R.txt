@@ -1,0 +1,6 @@
+int drawable clip_point 0x7f020000
+int drawable crop_control_bl 0x7f020001
+int drawable crop_control_br 0x7f020002
+int drawable crop_control_tl 0x7f020003
+int drawable crop_control_tr 0x7f020004
+int drawable ic_launcher 0x7f020005
